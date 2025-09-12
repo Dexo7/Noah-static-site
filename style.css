@@ -241,5 +241,84 @@ body {
   width: 100%;
   height: 100%;
   background-color: #FFEEF633; 
-  z-index: 1;
+
+}
+.things-we-enjoy {
+    width: 100%;
+    height:792px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    position: relative;
+    opacity: 1;
+    box-sizing: border-box;
+}
+.one-two-threecontainer {
+  width: 543px;
+  height: 410px;
+  gap: 40px;
+  opacity: 1;
+  box-sizing: border-box;
+  margin-left: 1227px;
+  margin-top: 191px;
+  margin-right: 150px;
+  margin-bottom: 191px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-zone {
+    width: 100%;
+    height: 110px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+.top-left-box {
+  width: 70px;
+  height: 72px;
+  box-sizing: border-box;
+}
+.top-left-text {
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 0;
+  color: transparent;
+  -webkit-text-stroke: 1px #020E35;
+}
+.digital-zone {
+    width: 421px;
+    height: 110px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 12px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+}
+.digital-text-zone {
+    width: 263px;
+    height: 36px;
+    opacity: 1px;
+    margin-top: 8px;
+    margin-right: 158px;
+    margin-bottom: 66p;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.digital-text {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0;
+    color: #020E35;
+}
+.digital-subtitle-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #020E35; 
 }
