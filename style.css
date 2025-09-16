@@ -244,81 +244,70 @@ body {
 
 }
 .things-we-enjoy {
-    width: 100%;
     height:792px;
-    display: flex;
-    justify-content: space-between;
     padding: 100px 150px;
     position: relative;
-    opacity: 1;
-    box-sizing: border-box;
+    overflow: visible;
 }
 .one-two-threecontainer {
-  width: 543px;
-  height: 410px;
-  gap: 40px;
-  opacity: 1;
-  box-sizing: border-box;
-  margin-left: 1227px;
-  margin-top: 191px;
-  margin-right: 150px;
-  margin-bottom: 191px;
   display: flex;
   justify-content: space-between;
+  gap: 532px;
 }
-.top-zone {
-    width: 100%;
-    height: 110px;
-    box-sizing: border-box;
+.enjoy-column {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
 }
-.top-left-box {
-  width: 70px;
-  height: 72px;
-  box-sizing: border-box;
+.enjoy-element {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
-.top-left-text {
+.enjoy-number {
   font-weight: 400;
+  margin: 0;
   font-style: normal; 
-  font-size: 58px;
   line-height: 72px;
   letter-spacing: 0;
   color: transparent;
   -webkit-text-stroke: 1px #020E35;
+  font-size: 64px;
 }
-.digital-zone {
-    width: 421px;
-    height: 110px;
-    display: flex;
-    margin-left: 40px;
-    margin-right: 12px;
-    box-sizing: border-box;
-    flex-direction: column;
-    gap: 20px;
+.enjoy-title {
+  margin-top: 8px;
+  font-size: 28px;
 }
-.digital-text-zone {
-    width: 263px;
-    height: 36px;
-    opacity: 1px;
-    margin-top: 8px;
-    margin-right: 158px;
-    margin-bottom: 66p;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-}
-.digital-text {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: 0;
-    color: #020E35;
-}
-.digital-subtitle-text {
-    font-weight: 400;
+.enjoy-text {
     font-size: 18px;
-    line-height: 23px;
-    color: #020E35; 
+    width: 421px;
+}
+.enjoy-column-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    color: #020E35;
+    position: relative;
+    padding-bottom: 60px;
+}
+.enjoy-column-title::after {
+    content: "";
+    position: absolute;
+    bottom: 57px;
+    left: 0;
+    width: 468px;
+    height: 30px;
+    background: #FF5678;
+    z-index: -1;
+}
+.enjoy-column:last-child {
+    padding-top: 192px;
+}
+.background-image {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    bottom: 15px;
+    width: 585px;
 }
