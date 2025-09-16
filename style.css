@@ -287,10 +287,10 @@ body {
 .enjoy-column-title::after {
     content: "";
     position: absolute;
-    bottom: 61px;
+    bottom: 56px;
     left: 0;
     width: 450px;
-    height: 30px;
+    height: 34px;
     background: #FF5678;
     z-index: -1;
 }
@@ -342,4 +342,16 @@ body {
     letter-spacing: 0%;
     width: 481px;
 }
-.
+.craft-image {
+    width: 780px;
+    height: 670px;
+    border-radius: 1000px;
+}
+.craft-image-overlay {
+    position: absolute; 
+    background: #FFEEF633; 
+    width: 780px;
+    height: 670px;
+    border-radius: 1000px;
+    margin-left: 1130px;
+}
