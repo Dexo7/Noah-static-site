@@ -294,9 +294,9 @@ body {
 .enjoy-column-title::after {
     content: "";
     position: absolute;
-    bottom: 57px;
+    bottom: 61px;
     left: 0;
-    width: 468px;
+    width: 450px;
     height: 30px;
     background: #FF5678;
     z-index: -1;
@@ -308,6 +308,36 @@ body {
     position: absolute;
     left: 0;
     z-index: -1;
-    bottom: 15px;
-    width: 585px;
+    bottom: 44px;
+}
+.craft-section {
+    display: flex;
+    justify-content: space-between;
+    height: 870px;
+    padding: 100px 150px;
+    gap: 176px;
+}
+.craft-container {
+    flex-direction: column;
+    display: flex;
+    gap: 60px;
+    width: 664px;
+}
+.craft-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+.craft-title .highlight {
+    position: relative;
+}
+.craft-title .highlight::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 105%;
+    height: 30px;
+    background-color: #FF5678;
+    z-index: -1;
 }
