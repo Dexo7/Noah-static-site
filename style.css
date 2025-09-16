@@ -162,16 +162,10 @@ body {
     color: #020E35;
 }
 .learn-more-link {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     background-color: #020E35;
     color: white;
-    width: 185px;
-    height: 71px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 24px 40px;
+    text-align: center;
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
@@ -198,7 +192,6 @@ body {
     gap: 24px;
     text-decoration: none;
     opacity: 1;
-    margin-left: 250px;
     position: relative;
 }
 .powered-circle {
@@ -327,6 +320,7 @@ body {
     font-weight: 700;
     font-size: 54px;
     line-height: 72px;
+    margin: 0;
 }
 .craft-title .highlight {
     position: relative;
@@ -341,3 +335,11 @@ body {
     background-color: #FF5678;
     z-index: -1;
 }
+.craft-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    width: 481px;
+}
+.
