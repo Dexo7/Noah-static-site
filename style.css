@@ -113,18 +113,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
-    opacity: 1;
     box-sizing: border-box;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 811px;
 }
 .powered-by-box {
     width: 517px;
     height: 435px;
     display: flex;
     flex-direction: column;    
-    opacity: 1;
     position: relative;
 }
 .powered-by-title h3 {
@@ -150,7 +145,6 @@ body {
 .subtext-powered-by {
     width: 517px;
     height: 138px;
-    opacity: 1;
     box-sizing: border-box; 
     margin-top: 42px;
 }
@@ -348,7 +342,7 @@ body {
     width: 780px;
     height: 670px;
     border-radius: 1000px;
-    margin-left: 1130px;
+    margin-left: 1375px;
 }
 .team-section {
   height: 1485px;
@@ -368,11 +362,11 @@ body {
   content: "";
   position: absolute;
   left: -7px;
-  bottom: 5px;             
+  bottom: 2px;             
   width: 400px;                       
   z-index: -1;
   background-color: #FF5678;
-  height: 28px;
+  height: 30px;
 }
 .team-container {
     height: 1109px;
@@ -447,3 +441,58 @@ body {
     color: #020E35;
     text-decoration: none;
 }
+.work-section {
+    height: 1943px;
+    padding: 100px 150px;
+    gap: 60px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.work-title {
+    font-weight: 700;
+    font-size: 54px;
+    color: #020E35;
+    font-style: bold;
+    position: relative;
+    margin: 0;
+}
+.work-title::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: #FF5678;
+    width: 397px;
+    height: 30px;
+    bottom: 1px;
+    left: 328px;
+}
+.work-subtitle {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+.work-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #020E35; 
+    font-size: 24px;
+    font-style: bold;
+    letter-spacing: 0;
+}
+.link-pink {
+    background: #FF5678;
+    color: white;
+    width: 56px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
