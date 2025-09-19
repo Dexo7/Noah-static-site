@@ -342,7 +342,7 @@ body {
     width: 780px;
     height: 670px;
     border-radius: 1000px;
-    margin-left: 1375px;
+    margin-left: 1682px;
 }
 .team-section {
   height: 1485px;
@@ -427,7 +427,6 @@ body {
     height: 200px;
     border-radius: 50%;
     background: #FFEEF6;
-    margin: 74,5px 169,5px 264,5px 169,5px;
 }
 .zone-text-gap {
     display: flex;
@@ -495,4 +494,44 @@ body {
     font-size: 24px;
     letter-spacing: 1px;
 }
-
+.work-squares {
+    height: 1376px;
+    width: 1620px;
+    gap: 32px;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+}
+.work-left-column,
+.work-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0;
+}
+.tall-squares {
+    width: 519px;
+    height: 672px;
+}
+.work-left-squares {
+    background: #FFEEF6;
+}
+.big-squares {
+    width: 1068px;
+    height: 519px;
+}
+.bottom-square {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.small-top-squares {
+    width: 519px;
+    height: 396.5px;
+}
+.center-square {
+    width: 518px;
+    height: 825px;
+    background: #FFEEF6;
+}
