@@ -342,7 +342,7 @@ body {
     width: 780px;
     height: 670px;
     border-radius: 1000px;
-    margin-left: 1682px;
+    margin-left: 1130px;
 }
 .team-section {
   height: 1485px;
@@ -562,6 +562,8 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
+    padding: 100px 0;
+    overflow: hidden
 }
 .testimonial-title {
     font-weight: 700;
@@ -575,23 +577,103 @@ body {
 }
 .testimonial-fullwidth-container {
     height: 672px;
-    width: 100vw;
+    width: calc(100% + 300px);
     display: flex;
-    gap: 32px;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
 }
 .testimonial-box {
-    width: 412px;
+    width: 480px;
     height: 555px;
     border-radius: 150px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid #949494;
+    gap: 46px;
+    display: flex;
+    flex-direction: column;
 }
 .testimonial-middle-box {
-    width: 460px;
+    width: 500px;
     height: 672px;
     border-radius: 150px;
     border: 1px solid #949494;
+    gap: 46px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-title-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 253px;
+    padding-top: 180px;
+    margin-top: 65px;
+}
+.box-title-bigcontainer {
+    width: 380px;
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    padding-top: 245px;
+    position: relative;
+    flex-direction: column;
+    gap: 16px;
+}
+.testimonial-box-title {
+    font-weight: 400;
+    font-size: 18px;
+    color: #020E35;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+.subtitle-testimonial-container-mid {
+    margin-bottom: 85px;
+}
+.subtitle-testimonial-container {
+    margin-bottom: 40px;
+}
+.testi-circle {
+    width: 150px;
+    height: 150px;
+    background: #FFEEF6;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-images {
+    gap: 16px;
+    width: 206px;
+    height: 27px;
+    justify-content: center;
+    display: flex;
+}
+.box-title-bigcontainer .box-images {
+    position: absolute;
+    top: 180px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 16px;
+}
+.testimonial-bottom-bar {
+    width: 1620px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-section{
+    height: 1104px;
+    padding: 100px 150px;
 }
