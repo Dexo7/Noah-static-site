@@ -676,4 +676,83 @@ body {
 .contact-section{
     height: 1104px;
     padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 184px;
+    align-items: center;
+}
+.right-part {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    height: 904px;
+    position: relative;
+}
+.contact-title {
+    width: 527px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 54px;
+    color: #020E35;
+    margin: 0;
+}
+.highlight3 {
+    position: relative;
+    display: inline-block;
+}
+.highlight3::after {
+    content: "";
+    position: absolute;
+    background: #FF5678;
+    width: 293px;
+    height: 28px;
+    left: -1px;
+    bottom: 6px;
+    z-index: -1;
+}
+.contact-small-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #020E35;
+}
+.contact-box {
+    width: 100%;
+    height: 113px;
+}
+.contact-big-box {
+    width: 100%;
+    height: 243px;
+    color: #020E35;
+}
+.send-link {
+    position: absolute;
+    width: 205px;
+    height: 71px;
+    background: #020E35;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 40px 5px #00000040;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+}
+.contact-input {
+    height: 70px;
+    width: 652px;
+    border-radius: 10px;
+    border: 1px solid #020E35;
+    background: #FFEEF6;
+}
+.contact-input-big {
+    width: 652px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #020E35;
+    background: #FFEEF6;
 }
