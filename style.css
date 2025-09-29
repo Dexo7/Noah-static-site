@@ -59,7 +59,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    opacity: 1;
     position: relative;
     box-sizing: border-box;
 }
@@ -185,7 +184,6 @@ body {
     height: 68px;
     gap: 24px;
     text-decoration: none;
-    opacity: 1;
     position: relative;
 }
 .powered-circle {
@@ -220,10 +218,10 @@ body {
     border-radius: 500px;
 }
 .cooking-overlay {
-  position: absolute; 
-  width: 595px;
-  height: 508px;
-  background-color: #FFEEF633; 
+    position: absolute; 
+    width: 595px;
+    height: 508px;
+    background-color: #FFEEF633; 
 }
 .things-we-enjoy {
     height:792px;
@@ -232,9 +230,9 @@ body {
     overflow: visible;
 }
 .one-two-threecontainer {
-  display: flex;
-  justify-content: space-between;
-  gap: 532px;
+    display: flex;
+    justify-content: space-between;
+    gap: 532px;
 }
 .enjoy-column {
     display: flex;
@@ -247,18 +245,18 @@ body {
     gap: 40px;
 }
 .enjoy-number {
-  font-weight: 400;
-  margin: 0;
-  font-style: normal; 
-  line-height: 72px;
-  letter-spacing: 0;
-  color: transparent;
-  -webkit-text-stroke: 1px #020E35;
-  font-size: 64px;
+    font-weight: 400;
+    margin: 0;
+    font-style: normal; 
+    line-height: 72px;
+    letter-spacing: 0;
+    color: transparent;
+    -webkit-text-stroke: 1px #020E35;
+    font-size: 64px;
 }
 .enjoy-title {
-  margin-top: 8px;
-  font-size: 28px;
+    margin-top: 8px;
+    font-size: 28px;
 }
 .enjoy-text {
     font-size: 18px;
@@ -267,7 +265,6 @@ body {
 .enjoy-column-title {
     font-weight: 700;
     font-size: 54px;
-    line-height: 62px;
     letter-spacing: 0%;
     color: #020E35;
     position: relative;
@@ -279,7 +276,7 @@ body {
     bottom: 56px;
     left: 0;
     width: 450px;
-    height: 34px;
+    height: 37px;
     background: #FF5678;
     z-index: -1;
 }
@@ -345,28 +342,27 @@ body {
     margin-left: 1130px;
 }
 .team-section {
-  height: 1485px;
-  padding: 100px 150px;
-  text-align: center; 
+    height: 1485px;
+    padding: 100px 150px;
+    text-align: center; 
 }
 .team-title {
-  font-weight: 700;
-  font-size: 54px;
-  line-height: 72px;
-  margin: 0;
-  display: inline-block;    
-  position: relative;
-  margin-bottom: 104px;
+    font-weight: 700;
+    font-size: 54px;
+    margin: 0;
+    display: inline-block;    
+    position: relative;
+    margin-bottom: 104px;
 }      
 .team-title::after {
-  content: "";
-  position: absolute;
-  left: -7px;
-  bottom: 2px;             
-  width: 400px;                       
-  z-index: -1;
-  background-color: #FF5678;
-  height: 30px;
+    content: "";
+    position: absolute;
+    left: -7px;
+    bottom: 2px;             
+    width: 400px;                       
+    z-index: -1;
+    background-color: #FF5678;
+    height: 30px;
 }
 .team-container {
     height: 1109px;
@@ -788,4 +784,87 @@ body {
     left: 1px;
     bottom: 1px;
     z-index: -1;
+}
+.footer-section {
+    height: 511px;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main-container {
+    height: 269px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 153px;
+    align-items: flex-start;
+    color: #020E35;
+}
+.box1 { width: 410px; height: 269px; gap: 32px; display: flex; flex-direction: column; }
+.box2 { width: 194px; height: 229px; gap: 16px; display: flex; flex-direction: column; }
+.box3 { width: 154px; height: 161px; gap: 16px; display: flex; flex-direction: column; }
+.box4 { width: 110px; height: 127px; gap: 16px; display: flex; flex-direction: column; }
+.box5 { width: 138px; height: 127px; gap: 16px; display: flex; flex-direction: column; }
+.logo-footer {
+    width: 128px;
+    height: 42px;
+}
+.adress-footer {
+    height: 112px;
+    width: 148px;
+    gap: 16px;
+}
+.adress-text {
+    font-weight: 700;
+    font-size: 16px;
+}
+.title-font {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.subtitle-font {
+    font-weight: 400;
+    font-size: 14px;
+}
+.services-links {
+    text-decoration: none;
+    color: #020E35;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-bottom {
+    width: 100%;
+    height: 82px;
+    background: #020E35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: -60px;
+}
+.footer-copyright {
+    color: white;
+    font-size: 14px;
+    margin-left: 150px;
+}
+.footer-right-container-links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-right: 150px;
+}
+.footer-cookie {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-privacy {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
 }
